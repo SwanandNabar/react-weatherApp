@@ -1,4 +1,4 @@
-#Documentation
+###Documentation
 
 Babel-core         : transforms ES6 code to ES5 for some non compatible browsers
 Babel-loader       : Webpack helper to transform javascript dependencies
