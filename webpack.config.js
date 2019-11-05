@@ -42,5 +42,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [htmlPlugin]
+  plugins: [htmlPlugin],
+  devServer : {
+    inline: false,
+    contentBase: "./dist",
+  },
+  presets: ["react-hmre"]
 };

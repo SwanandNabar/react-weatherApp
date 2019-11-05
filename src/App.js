@@ -18,7 +18,7 @@ class App extends Component {
 
     getWeather(e) {
         e.preventDefault();
-        
+
         const API_KEY = 'dd7197d57b1680d056e104057a24d493';
         const city = e.target.elements.city.value;
         const country = e.target.elements.country.value;
@@ -47,8 +47,9 @@ class App extends Component {
             <div>
                 <Titles />
                 <Form loadWeather={this.getWeather} />
-                <Weather city={this.state.city} temp={this.state.temp} error={this.state.error} />
-                <Temperature />
+                {this.state.city &&
+                    <Weather city={this.state.city} temp={this.state.temp} error={this.state.error} />
+                }
             </div>
         )
     }
