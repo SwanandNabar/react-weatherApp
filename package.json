@@ -6,20 +6,24 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "jest --watch",
     "deploy": "aws s3 sync build/ s3://www.swanandnabar.com --recursive"
   },
   "author": "Swanand Nabar",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "css-loader": "^2.0.1",
+    "jest": "^24.9.0",
     "style-loader": "^0.23.1"
   },
   "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.0.0",
     "axios": "^0.18.0",
+    "babel-jest": "^24.9.0",
+    "cleave.js": "^1.5.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "1.1.1"

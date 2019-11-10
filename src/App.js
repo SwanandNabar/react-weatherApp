@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Titles from './Titles/Titles';
-import Form from './Form/Form';
-import Weather from './Weather/Weather';
+import Titles from './Weather-App/Titles/Titles';
+import Form from './Weather-App/Form/Form';
+import Weather from './Weather-App/Weather/Weather';
+import TipCalculator from './Tip-Calculator/TipCalculator';
 import axios from 'axios';
 
 class App extends Component {
@@ -27,8 +28,6 @@ class App extends Component {
 
         axios.get(FULL_URL)
             .then(result => {
-                const weather_info = result.data;
-                console.log(weather_info);
                 if (city && country) {
                     this.setState({
                         temp: result.data.main.temp,
@@ -50,6 +49,7 @@ class App extends Component {
                 {this.state.city &&
                     <Weather city={this.state.city} temp={this.state.temp} error={this.state.error} />
                 }
+                <TipCalculator />
             </div>
         )
     }

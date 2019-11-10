@@ -1,0 +1,115 @@
+.tip-calculator {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #272822;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.tip-form {
+    background-color: #dddddd;
+    padding: 40px;
+    border-radius: 7px;
+}
+
+.tip-calculator h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    color: #484848;
+}
+
+
+#calculatorForm .bill-without-tip, .drop-down, .party-size {
+    box-sizing: border-box;
+    outline: none;
+    border: 3px solid #e6e6e6;
+    border-radius: 5px;
+    background-color: #fff;
+    line-height: 60px;
+    vertical-align: middle;
+    height: 45px;
+    color: #A8A8A8;
+    font-size: 15px;
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.btn-calculate {
+    font-family: sans-serif;
+    position: relative;
+    z-index: 100;
+    text-transform: uppercase;
+    background-color: #BBB;
+    line-height: 1.1;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 40px;
+    font-weight: bold;
+    transition: all 200ms ease;
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 13px;
+    width: 100%;
+}
+
+.btn-clear {
+    margin-left: 10px;
+}
+
+
+
+.field {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    color: #A8A8A8;
+}
+
+.title {
+    display: none
+}
+
+.split {
+    position: relative;
+    text-align: left;
+    padding: 0 13px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #A8A8A8;
+}
+
+.checkbox {
+    transform: scale(1.5);
+    float: right;
+}
+
+.split-checkbox {
+    float: left;
+    width: 75%;
+}
+
+.total, .tip-amount {
+    text-align: left;
+    color: #A8A8A8;
+    padding-left: 11px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#tipsText {
+    position: relative;
+    float: right;
+}
+
+input {
+    color: #A8A8A8;
+}

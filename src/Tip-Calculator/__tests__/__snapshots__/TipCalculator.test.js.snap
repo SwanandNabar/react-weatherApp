@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TipCalculator Loads the component 1`] = `
+TipCalculator {
+  "baseState": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "calculateTip": [Function],
+  "context": undefined,
+  "onTipAmountChange": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "toggleSplitBill": [Function],
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`TipCalculator calls the calculateTip function 1`] = `
+TipCalculator {
+  "baseState": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "calculateTip": [Function],
+  "context": undefined,
+  "onTipAmountChange": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "toggleSplitBill": [Function],
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`TipCalculator calls the calculateTip function 2`] = `
+TipCalculator {
+  "baseState": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "calculateTip": [Function],
+  "context": undefined,
+  "onTipAmountChange": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "toggleSplitBill": [Function],
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`TipCalculator calls the onTipAmountChange function 1`] = `
+TipCalculator {
+  "baseState": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "calculateTip": [Function],
+  "context": undefined,
+  "onTipAmountChange": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "toggleSplitBill": [Function],
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`TipCalculator calls the toggleSplitBill function 1`] = `
+TipCalculator {
+  "baseState": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "calculateTip": [Function],
+  "context": undefined,
+  "onTipAmountChange": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "billWithoutTip": "",
+    "formSubmitted": false,
+    "partySize": "",
+    "splitBill": false,
+    "tipAmount": 0,
+    "totalBill": 0,
+    "value": 0,
+  },
+  "toggleSplitBill": [Function],
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
