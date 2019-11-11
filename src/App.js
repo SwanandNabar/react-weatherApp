@@ -7,10 +7,21 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <Weather />
-                <TipCalculator />
-            </div>
+            <Router>
+                <Switch>
+                    <Route exact path="/">
+                        <Weather />
+                    </Route>
+                    <Route path="/tip">
+                        <TipCalculator />
+                    </Route>
+                </Switch>
+            </Router>
+
+            // <div>
+            //     <Weather />
+            //     <TipCalculator />
+            // </div>
         )
     }
 }
