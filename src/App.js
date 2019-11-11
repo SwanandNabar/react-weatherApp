@@ -7,16 +7,10 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
-                <Switch>
-                    <Route exact path="/" component={Weather}>
-                        <Link to="/" component={Weather}>Weather</Link>
-                    </Route>
-                    <Route exact path="/tipcalculator" component={TipCalculator}>
-                        <Link to="/tipcalculator" component={TipCalculator}>Tip Calculator</Link>
-                    </Route>
-                </Switch>
-            </Router>
+            <div>
+                <Weather />
+                <TipCalculator />
+            </div>
         )
     }
 }
