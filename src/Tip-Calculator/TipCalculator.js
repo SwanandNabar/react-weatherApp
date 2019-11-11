@@ -30,16 +30,16 @@ export default class TipCalculator extends Component {
 
         switch (selectorValue) {
             case "0.15":
-                document.querySelector(".tip-form").style.border = "solid 1px #00008B";
+                document.querySelector(".tip-form").style["border-top"] = "solid 5px #00008B";
                 break;
             case "0.18":
-                document.querySelector(".tip-form").style.border = "solid 1px #00FFFF";
+                document.querySelector(".tip-form").style["border-top"] = "solid 5px #00FFFF";
                 break;
             case "0.2":
-                document.querySelector(".tip-form").style.border = "solid 1px #32CD32";
+                document.querySelector(".tip-form").style["border-top"] = "solid 5px #32CD32";
                 break;
             case "":
-                document.querySelector(".tip-form").style.border = "none";
+                document.querySelector(".tip-form").style["border-top"] = "none";
                 break;
             default:
                 break;
