@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GithubCards Calls the getCommitList function 1`] = `
+GithubCards {
+  "context": undefined,
+  "getCommitList": [Function],
+  "getCommitListRepo": [Function],
+  "getRepos": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "checkBox": false,
+    "commitDetails": Array [],
+    "topHundredRepos": Array [],
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`GithubCards Calls the getCommitListRepo function 1`] = `
+GithubCards {
+  "context": undefined,
+  "getCommitList": [Function],
+  "getCommitListRepo": [Function],
+  "getRepos": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "checkBox": false,
+    "commitDetails": Array [],
+    "topHundredRepos": Array [],
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`GithubCards Calls the getRepos function 1`] = `
+GithubCards {
+  "context": undefined,
+  "getCommitList": [Function],
+  "getCommitListRepo": [Function],
+  "getRepos": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "checkBox": false,
+    "commitDetails": Array [],
+    "topHundredRepos": Array [],
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`GithubCards Loads the component 1`] = `
+GithubCards {
+  "context": undefined,
+  "getCommitList": [Function],
+  "getCommitListRepo": [Function],
+  "getRepos": [Function],
+  "props": undefined,
+  "refs": Object {},
+  "state": Object {
+    "checkBox": false,
+    "commitDetails": Array [],
+    "topHundredRepos": Array [],
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
